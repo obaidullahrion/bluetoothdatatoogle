@@ -9,11 +9,11 @@ usage : when another devie connects the blutooth the data gets turned off and on
 run the script in termux and secure awakelock . 
 
 ```
-git clone ...
+git clone https://github.com/obaidullahrion/bluetoothdatatoogle.git
 
-chmod 700 ....
+chmod 700 <filename.sh>
 
-nohup ./auto_data.sh > data_auto.log 2>&1 & ```
+nohup ./<filename.sh> > data_auto.log 2>&1 & ```
 
 
 
